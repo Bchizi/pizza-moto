@@ -1,1 +1,14 @@
-
+body {
+	background-image: url(https://image.freepik.com/free-vector/seamless-pizza-ingredients_1176-269.jpg);
+	color: aliceblue;
+}
+#form1 {
+	height: 100vh;
+	display: flex;
+	flex-direction: inherit;
+	/* align-items: center;
+	justify-content: center; */
+}
+#form {
+	/* align-items: center; */
+}

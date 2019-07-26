@@ -15,6 +15,7 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -23,45 +24,61 @@
     </head>
 
     <body>
-        <div class="container-fluid">
-
+        <section>
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ex recusandae natus dolores officia
-                    facere?
-                    Autem rem vitae obcaecati corporis, itaque totam perferendis praesentium eos dolore inventore
-                    deleniti
-                    nemo cupiditate!</p>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
             </div>
-            <br>
-            <div class='form'>
-                <div class="row-6">
-                    <div class="col-md-4">
-                        <div class="panel">
+        </section>
 
-                            <form>
-                                <div class="form-group">
+        <section>
+            <div class="container-fluid" id="form1">
+
+                <div class='form'>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel">
+
+                                <form>
+
                                     <label for="exampleFormControlSelect1">Choose size...</label>
                                     <select class="form-control" id="exampleFormControlSelect1">
+                                        <option></option>
                                         <option>small</option>
                                         <option>medium</option>
                                         <option>large</option>
 
                                     </select>
-                                </div>
 
-                                <div class="form-group">
+
+
                                     <label for="exampleFormControlSelect1">Select Type of Crust..</label>
                                     <select class="form-control" id="exampleFormControlSelect1">
+                                        <option></option>
                                         <option>Crispy</option>
                                         <option>Stuffed</option>
                                         <option>Gluten-Free</option>
 
                                     </select>
-                                </div>
 
-                                <div class="form-group">
+
+
+
                                     <label for="exampleFormControlSelect1">Select Type Toppings...</label>
                                     <select class="form-control" id="exampleFormControlSelect1">
+                                        <option></option>
                                         <option>pineapple </option>
                                         <option>Barbequed Bee</option>
                                         <option>Spicy</option>
@@ -71,18 +88,42 @@
                                         <option>Mozzarella Cheese</option>
 
                                     </select>
-                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
+
+
+
+                </form>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <select type="text" class="form-control" id="Name" placeholder="Name..."
+                                style="background-color: transparent">
+                                <option> bebee</option>
+                                <option>the gange</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" id="Email" placeholder="Email..."
+                                style="background-color: transparent">
+                        </div>
+
+                    </div>
+                    <br>
+
+
+                    <textarea class="form-control" rows="9" placeholder="your message here..."
+                        style="background-color: transparent" style="text-emphasis-color" id="Message"></textarea>
+                    <br><br>
+                    <button type="button" id="submit" class="btn btn-primary">submit</button>
+                </form>
+
             </div>
-
-
-
-            </form>
-
-        </div>
-        </div>
+            </div>
+        </section>
 
 
         <script src="" async defer></script>
