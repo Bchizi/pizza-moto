@@ -1,14 +1,23 @@
-body {
-	background-image: url(https://image.freepik.com/free-vector/seamless-pizza-ingredients_1176-269.jpg);
-	color: aliceblue;
+*{
+	;
 }
-#form1 {
-	height: 100vh;
-	display: flex;
-	flex-direction: inherit;
-	/* align-items: center;
-	justify-content: center; */
+html,
+body,
+header,
+#intro {
+	height: 100%;
 }
-#form {
-	/* align-items: center; */
+
+#intro {
+	background-image: url("https://images.unsplash.com/photo-1562244812-e705a6b7d80f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+	background-size: cover;
 }
+.full-bg-img h1 {
+	font-size: 9em;
+	font-family: 'Frijole', cursive;
+}
+#content {
+	height: 100%;
+	background-image: url("https://image.freepik.com/free-vector/seamless-pizza-ingredients_1176-269.jpg");
+}
+p

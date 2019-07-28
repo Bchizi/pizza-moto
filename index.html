@@ -1,10 +1,6 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="no-js">
-    <!--<![endif]-->
+
 
     <head>
         <meta charset="utf-8">
@@ -12,121 +8,242 @@
         <title>pizza moto!</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Font Awesome -->
+        <link href="https://fonts.googleapis.com/css?family=Frijole|Londrina+Sketch|Rock+Salt|Varela+Round&display=swap"
+            rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+            rel="stylesheet">
+        <!-- Material Design Bootstrap -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
         <script src="js/script.js"></script>
     </head>
 
     <body>
-        <section>
-            <div>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Active</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
 
-        <section>
-            <div class="container-fluid" id="form1">
+        <!-- Main Navigation -->
+        <header>
 
-                <div class='form'>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="panel">
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark danger-color">
 
-                                <form>
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#">Navbar</a>
 
-                                    <label for="exampleFormControlSelect1">Choose size...</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
-                                        <option></option>
-                                        <option>small</option>
-                                        <option>medium</option>
-                                        <option>large</option>
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                                    </select>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
 
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ORDER ONLINE</a>
+                        </li>
 
-
-                                    <label for="exampleFormControlSelect1">Select Type of Crust..</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
-                                        <option></option>
-                                        <option>Crispy</option>
-                                        <option>Stuffed</option>
-                                        <option>Gluten-Free</option>
-
-                                    </select>
-
-
-
-
-                                    <label for="exampleFormControlSelect1">Select Type Toppings...</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
-                                        <option></option>
-                                        <option>pineapple </option>
-                                        <option>Barbequed Bee</option>
-                                        <option>Spicy</option>
-                                        <option>Pepperoni</option>
-                                        <option>Onions</option>
-                                        <option>Meat Balls</option>
-                                        <option>Mozzarella Cheese</option>
-
-                                    </select>
-
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
                             </div>
+                        </li>
+
+                    </ul>
+                    <!-- Links -->
+
+                    <form class="form-inline">
+                        <div class="md-form my-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                         </div>
-                    </div>
+                    </form>
                 </div>
+                <!-- Collapsible content -->
 
+            </nav>
+            <!--/.Navbar-->
+            <!-- mask  -->
+            <div id="intro" class=" waves-effect waves-light rgba-teal-strong">
 
-
-                </form>
-                <form>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <select type="text" class="form-control" id="Name" placeholder="Name..."
-                                style="background-color: transparent">
-                                <option> bebee</option>
-                                <option>the gange</option>
-                            </select>
-                        </div>
-                        <div class="col-md-6">
-                            <input type="email" class="form-control" id="Email" placeholder="Email..."
-                                style="background-color: transparent">
-                        </div>
-
-                    </div>
+                <div class="full-bg-img">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <br>
 
 
-                    <textarea class="form-control" rows="9" placeholder="your message here..."
-                        style="background-color: transparent" style="text-emphasis-color" id="Message"></textarea>
-                    <br><br>
-                    <button type="button" id="submit" class="btn btn-primary">submit</button>
-                </form>
+                    <!-- Heading -->
+                    <h1 class="display-3 font-bold white-text mb-2" style="margin-left:20px;">Pizza </h1>
+                    <h1 class="display-3 font-bold white-text mb-2" style="margin-left: 1em;"> Moto!</h1>
+                    <!-- Heading -->
+
+                </div>
 
             </div>
+            <!-- mask -->
+
+            <!-- mask2 -->
+            <div id="content" class="view hm-red-light">
+                <div class="row">
+
+                    <!-- MEATY PIZZA-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <h4 class="py-lg-4 pb-4 text-center">MEATY PIZZA </h4>
+
+                        <!--Card-->
+                        <div class="card card-cascade narrower mb-4" style="margin-top: 28px">
+
+                            <!--Card image-->
+                            <div class="view view-cascade">
+                                <img src="https://image.freepik.com/free-photo/delicious-pizza-served-wooden-table_114561-38.jpg"
+                                    class="card-img-top" alt="">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <!--/.Card image-->
+
+                            <!--Card content-->
+                            <div class="card-body card-body-cascade">
+                                <h5 class="pink-text"><i class="fas fa-utensils"></i> MEATY PIZZA</h5>
+                                <!--Title-->
+                                <h6 class="card-title">Cheat day inspirations</h6>
+                                <!--Text-->
+                                <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                                    corporis suscipit
+                                    laboriosam, nisi ut
+                                    aliquid ex ea commodi.</p>
+                                <a class="btn btn-unique">Button</a>
+                            </div>
+                            <!--/.Card content-->
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!-- CHICKEN PIZZA -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <h4 class="py-lg-4 pb-4 text-center">Hawaiian Pizza </h4>
+
+                        <!--Card-->
+                        <div class="card card-cascade narrower mb-4" style="margin-top: 28px">
+
+                            <!--Card image-->
+                            <div class="view view-cascade">
+                                <img src="https://image.freepik.com/free-photo/woman-takes-piece-pizza_77190-725.jpg"
+                                    class="card-img-top" alt="">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <!--/.Card image-->
+
+                            <!--Card content-->
+                            <div class="card-body card-body-cascade">
+                                <h5 class="pink-text"><i class="fas fa-utensils"></i> CHICKEN PIZZA</h5>
+                                <!--Title-->
+                                <h6 class="card-title">Mozzarella Cheese, Chicken, Pineapple</h6>
+                                <!--Text-->
+                                <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                                    corporis suscipit
+                                    laboriosam, nisi ut
+                                    aliquid ex ea commodi.</p>
+                                <a class="btn btn-unique">Button</a>
+                            </div>
+                            <!--/.Card content-->
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!-- VEGETEBLE PIZZA -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <h4 class="py-lg-4 pb-4 text-center">Hawaiian Pizza </h4>
+
+                        <!--Card-->
+                        <div class="card card-cascade narrower mb-4" style="margin-top: 28px">
+
+                            <!--Card image-->
+                            <div class="view view-cascade">
+                                <img src="https://image.freepik.com/free-photo/circular-margherita-pizza-chopping-board-table_23-2147926081.jpg"
+                                    class="card-img-top" alt="">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <!--/.Card image-->
+
+                            <!--Card content-->
+                            <div class="card-body card-body-cascade">
+                                <h5 class="pink-text"><i class="fas fa-utensils"></i> VEGGY PIZZA</h5>
+                                <!--Title-->
+                                <h6 class="card-title">Mozzarella Cheese, Chillies, Green Peppers, Red Onions, Sweet
+                                    Corn, Tikka Sauce</h6>
+                                <!--Text-->
+                                <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                                    corporis suscipit
+                                    laboriosam, nisi ut
+                                    aliquid ex ea commodi.</p>
+                                <a class="btn btn-unique">Button</a>
+                            </div>
+                            <!--/.Card content-->
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+
+                </div>
             </div>
-        </section>
+            <!-- mask2 -->
+        </header>
+        <!-- Main Navigation -->
+
+        <!-- Main Layout -->
+        <main>
 
 
-        <script src="" async defer></script>
+        </main>
+        <!-- Main Layout -->
+
+        <!-- Footer -->
+        <footer>
+
+        </footer>
+        <!-- Footer -->
+
+        <!-- SCRIPTS -->
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>t>
     </body>
 
 </html>
