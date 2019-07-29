@@ -3,7 +3,7 @@
 
 ## Description 
 The website is responsive in that. When you input and checkout an alert pop up saiyng how much it will cost
-
+user will be able to choose pizza by preference on the buttons at the end of the page.
 
 ## Technologies used
 * HTML
