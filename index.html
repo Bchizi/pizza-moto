@@ -17,6 +17,8 @@
         <!-- Material Design Bootstrap -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
         <script src="js/script.js"></script>
     </head>
 
@@ -138,7 +140,9 @@
                                 <h6 class="card-title">Mozzarella Cheese, Barbequed Beef, Pineapple, BBQ Sauce</h6>
                                 <!--Text-->
                                 <br>
-                                <a class="btn btn-unique">Add</a>
+                                <button>
+                                    <a class="btn btn-unique" id="order">Add</a>
+                                </button>
                             </div>
                             <!--/.Card content-->
 
@@ -173,7 +177,9 @@
                                 <br>
                                 <!--Text-->
 
-                                <a class="btn btn-unique">Add</a>
+                                <button>
+                                    <a class="btn btn-unique" id="order">Add</a>
+                                </button>
                             </div>
                             <!--/.Card content-->
 
@@ -207,8 +213,9 @@
                                 <h6>Mozzarella Cheese, Chillies, Green Peppers, Red Onions, Sweet
                                     Corn, Tikka Sauce</h6>
                                 <br>
-
-                                <a class="btn btn-unique">Add</a>
+                                <button>
+                                    <a class="btn btn-unique" id="order">Add</a>
+                                </button>
                             </div>
                             <!--/.Card content-->
 
@@ -221,12 +228,12 @@
             </div>
             <!-- mask2 -->
             <!-- mask3 -->
-            <div>
+            <div id="pop">
                 <!-- Material form contact -->
                 <div class="card">
 
                     <h5 class="card-header info-color white-text text-center py-4">
-                        <strong>Contact us</strong>
+                        <strong>ORDER</strong>
                     </h5>
 
                     <!--Card content-->
@@ -239,45 +246,60 @@
                             <br>
 
                             <!-- Size -->
-                            <div>
+                            <div class="details">
                                 <span>Size</span>
-                                <select class="mdb-select">
+                                <select class="mdb-select" id="inputSize">
                                     <option value="" disabled>Choose option</option>
-                                    <option value="1000">Large- 1000/=</option>
-                                    <option value="600">Medium- 600/=</option>
-                                    <option value="300">Small- 300/=</option>
+                                    <option value="1000">Large</option>
+                                    <option value="600">Medium</option>
+                                    <option value="300">Small</option>
                                 </select>
 
                             </div>
                             <br>
-                            <div>
+                            <div class="details">
                                 <!-- crust -->
 
                                 <span>Crust</span>
-                                <select class="mdb-select">
+                                <select class="mdb-select" id="inputcrust">
                                     <option value="" disabled>Choose option</option>
-                                    <option value="">Crispy</option>
-                                    <option value="">Stuffed</option>
-                                    <option value="">Gluten-free</option>
+                                    <option value="50">Crispy</option>
+                                    <option value="30">Stuffed</option>
+                                    <option value="70">Gluten-free</option>
                                 </select>
                             </div>
                             <br>
-                            <div>
+                            <div class="details">
                                 <!-- Toppings -->
                                 <span>Toppings</span>
-                                <select class="mdb-select">
+                                <select class="mdb-select" id="inputtop">
                                     <option value="" disabled>Choose option</option>
                                     <option value="60">Cheese</option>
                                     <option value="60">pepperoni</option>
                                     <option value="60">onions</option>
                                 </select>
+                                <br>
+                                <br>
+
+
+                            </div>
+                            <div class="details">
+                                <!-- Default input -->
+                                <label for="exampleForm2">Quantity</label>
+                                <input type="text" id="quantity" class="form-control">
 
                             </div>
 
 
+
                             <!-- Send button -->
                             <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect"
-                                type="submit">Checkout</button>
+                                type="submit" id="placeorder">place Order</button>
+                            <br>
+                            <br>
+
+                            <button type="button" id="delivery"
+                                class="btn btn-outline-success btn-rounded btn-block z-depth-0 my-4 waves-effect">checkout</button>
 
                         </form>
                         <!-- Form -->
@@ -299,16 +321,7 @@
 
         <!-- SCRIPTS -->
         <!-- JQuery -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <!-- Bootstrap tooltips -->
-        <script type="text/javascript"
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-        <!-- Bootstrap core JavaScript -->
-        <script type="text/javascript"
-            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <!-- MDB core JavaScript -->
-        <script type="text/javascript"
-            src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>t>
+
     </body>
 
 </html>
