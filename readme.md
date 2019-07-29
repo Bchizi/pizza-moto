@@ -1,4 +1,4 @@
-# DELANI STUDIO
+# PIZZA MOTO ! WEBSITE.
 #### By **Leon Bichanga**
 
 ## Description 
@@ -10,7 +10,7 @@ user will be able to choose pizza by preference on the buttons at the end of the
 * CSS
 * jAVASCRIPT
 * JQUERY
-##Setup
+## Setup
 clone it from my repository and open it with a text editor.
 
 ## Contact
