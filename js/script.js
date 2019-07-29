@@ -20,16 +20,3 @@ function getTotalAmount() {
     var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
     alert("You ordered " + getQuantity() + " pizza(s)." + "" + " Your bill is " + (totalAmount));
 }
-//UI interface
-// $(document).ready(function () {
-//     $("#select").click(function () {
-//         $("#select").show();
-//         $("#hform").hide();
-//     });
-// });
-// $(document).ready(function () {
-//     $("#select").click(function () {
-//         $("#hform").show();
-//         $("#select").hide();
-//     });
-// });
