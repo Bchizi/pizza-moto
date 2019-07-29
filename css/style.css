@@ -1,6 +1,3 @@
-*{
-	;
-}
 html,
 body,
 header,
@@ -17,7 +14,13 @@ header,
 	font-family: 'Frijole', cursive;
 }
 #content {
-	height: 100%;
+	height: 200%;
 	background-image: url("https://image.freepik.com/free-vector/seamless-pizza-ingredients_1176-269.jpg");
+	background-size: contain;
 }
-p
+h4 {
+	font-family: 'Rock Salt', cursive;
+}
+h6 {
+	font-family: 'Varela Round', sans-serif;
+}
