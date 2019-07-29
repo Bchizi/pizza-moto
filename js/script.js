@@ -1,5 +1,3 @@
-// User interface
-// Displaying the ordering form
 function getSizeValue() {
     var selectedValue = document.getElementById("size").value;
     return parseInt(selectedValue);
